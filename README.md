@@ -45,33 +45,6 @@ Styling	External CSS (No Tailwind, No inline styles)
 Build Tool	Vite
 Deployment	Vercel / Netlify
 Version Control	Git & GitHub
--------
-
-📂 Project Structure
-
-The project follows a modular and maintainable folder structure, where each component has its own CSS file.
-
-src/
-├── components/
-│   ├── Header/
-│   ├── About/
-│   ├── RecentCases/
-│   ├── Testimonials/
-│   ├── Experience/
-│   ├── Education/
-│   ├── Skills/
-│   └── Contact/
-│
-├── pages/
-│   └── Home/
-│
-├── assets/
-│   ├── images/
-│   └── icons/
-│
-├── App.jsx
-└── main.jsx
-
 ------------
 
 🎨 Design Implementation
@@ -91,20 +64,6 @@ Color consistency
 A dark theme with blue accents is used throughout the application
 
 The design adapts smoothly across desktop, tablet, and mobile devices
-----------------
-
-🧾 HTML Structure Rules Followed
-
-As per assignment instructions:
-
-The main heading is placed inside the <h1> tag only in the Header component
-
-All other section titles use <h2> or <h3>
-
-All descriptive content is placed inside <div> tags
-
-Semantic consistency is maintained throughout the application
-
 -----------------------
 
 🎯 CSS Guidelines Followed
