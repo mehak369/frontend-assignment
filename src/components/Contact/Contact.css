@@ -1,0 +1,127 @@
+.growthzi_portfolio-contact {
+  padding: 120px 0 80px;
+  background: radial-gradient(
+      circle at top,
+      rgba(0, 153, 255, 0.12),
+      transparent 60%
+    ),
+    linear-gradient(180deg, #05070d, #000);
+}
+
+.growthzi_portfolio-contact-wrapper {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.growthzi_portfolio-contact h2 {
+  text-align: center;
+  color: #00b3ff;
+  margin-bottom: 14px;
+}
+
+.growthzi_portfolio-contact-desc {
+  text-align: center;
+  margin-bottom: 40px;
+  opacity: 0.85;
+  line-height: 1.7;
+}
+
+/* Form */
+.growthzi_portfolio-contact-form {
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+}
+
+.growthzi_portfolio-contact-field {
+  display: flex;
+  flex-direction: column;
+}
+
+.growthzi_portfolio-contact-label {
+  font-size: 13px;
+  margin-bottom: 6px;
+  opacity: 0.8;
+}
+
+.growthzi_portfolio-contact input,
+.growthzi_portfolio-contact textarea {
+  background-color: #fff;
+  border: none;
+  border-radius: 4px;
+  padding: 10px;
+  font-size: 14px;
+}
+
+.growthzi_portfolio-contact textarea {
+  min-height: 120px;
+  resize: none;
+}
+
+/* Button */
+.growthzi_portfolio-contact-btn-wrapper {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.growthzi_portfolio-contact-btn {
+  padding: 8px 22px;
+  background: linear-gradient(90deg, #008cff, #00c6ff);
+  border: none;
+  border-radius: 6px;
+  color: #fff;
+  cursor: pointer;
+}
+
+.growthzi_portfolio-contact-btn:hover {
+  opacity: 0.9;
+}
+
+/* Social Icons */
+.growthzi_portfolio-contact-socials {
+  margin-top: 40px;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  font-size: 18px;
+  opacity: 0.8;
+  cursor: pointer;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .growthzi_portfolio-contact {
+    padding: 80px 0 60px;
+  }
+}
+.growthzi_portfolio-contact-socials {
+  margin-top: 40px;
+  display: flex;
+  justify-content: center;
+  gap: 26px;
+}
+
+.growthzi_portfolio-contact-social {
+  width: 36px;
+  height: 36px;
+  border: 1px solid #00b3ff;
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.growthzi_portfolio-contact-social img {
+  width: 18px;
+  height: 18px;
+  filter: invert(55%) sepia(88%) saturate(3200%) hue-rotate(175deg);
+}
+
+.growthzi_portfolio-contact-social:hover {
+  background-color: #00b3ff;
+}
+
+.growthzi_portfolio-contact-social:hover img {
+  filter: invert(0%);
+}

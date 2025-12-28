@@ -1,0 +1,115 @@
+.growthzi_portfolio-testimonials {
+  padding: 120px 0;
+  background: radial-gradient(
+      circle at top,
+      rgba(0, 153, 255, 0.12),
+      transparent 60%
+    ),
+    linear-gradient(180deg, #05070d, #000);
+}
+
+.growthzi_portfolio-testimonials-wrapper {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 0 20px;
+  position: relative;
+}
+
+.growthzi_portfolio-testimonials h2 {
+  text-align: center;
+  color: #00b3ff;
+  margin-bottom: 14px;
+}
+
+.growthzi_portfolio-testimonials-desc {
+  text-align: center;
+  max-width: 720px;
+  margin: 0 auto 60px;
+  opacity: 0.85;
+  line-height: 1.7;
+}
+
+/* Cards layout */
+.growthzi_portfolio-testimonials-cards {
+  display: flex;
+  gap: 40px;
+  justify-content: center;
+}
+
+.growthzi_portfolio-testimonial-card {
+  background-color: #0b1020;
+  border-radius: 20px;
+  padding: 40px 30px;
+  width: 420px;
+  text-align: center;
+  box-shadow: 0 0 40px rgba(0, 0, 0, 0.6);
+}
+
+.growthzi_portfolio-testimonial-img {
+  width: 90px;
+  height: 90px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-bottom: 16px;
+}
+
+.growthzi_portfolio-testimonial-card h3 {
+  color: #00b3ff;
+  margin-bottom: 6px;
+}
+
+.growthzi_portfolio-testimonial-role {
+  font-size: 13px;
+  opacity: 0.7;
+  margin-bottom: 16px;
+}
+
+.growthzi_portfolio-testimonial-text {
+  font-size: 14px;
+  line-height: 1.7;
+  opacity: 0.85;
+  margin-bottom: 24px;
+}
+
+.growthzi_portfolio-testimonial-btn {
+  background: transparent;
+  border: 1px solid #00b3ff;
+  color: #00b3ff;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+
+.growthzi_portfolio-testimonial-btn:hover {
+  background-color: #00b3ff;
+  color: #000;
+}
+
+/* Vertical side button */
+.growthzi_portfolio-testimonials-side {
+  position: absolute;
+  right: -60px;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.growthzi_portfolio-testimonials-side-btn {
+  background: linear-gradient(180deg, #008cff, #00c6ff);
+  color: #fff;
+  padding: 14px 16px;
+  border-radius: 30px;
+  writing-mode: vertical-rl;
+  text-orientation: mixed;
+  cursor: pointer;
+}
+
+/* Responsive */
+@media (max-width: 900px) {
+  .growthzi_portfolio-testimonials-cards {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .growthzi_portfolio-testimonials-side {
+    display: none;
+  }
+}

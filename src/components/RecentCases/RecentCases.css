@@ -1,0 +1,99 @@
+.growthzi_portfolio-cases {
+  padding: 120px 0;
+  background: linear-gradient(180deg, #000, #05070d);
+}
+
+.growthzi_portfolio-cases-wrapper {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.growthzi_portfolio-cases h2 {
+  text-align: center;
+  color: #00b3ff;
+  margin-bottom: 12px;
+}
+
+.growthzi_portfolio-cases-desc {
+  text-align: center;
+  max-width: 700px;
+  margin: 0 auto 60px;
+  opacity: 0.85;
+  line-height: 1.7;
+}
+
+/* Case Card */
+.growthzi_portfolio-case-card {
+  background-color: #0b1020;
+  border-radius: 20px;
+  margin-bottom: 40px;
+  display: flex;
+  overflow: hidden;
+}
+
+.growthzi_portfolio-case-content {
+  flex: 1;
+  padding: 40px;
+}
+
+.growthzi_portfolio-case-content h3 {
+  font-size: 26px;
+  margin-bottom: 12px;
+}
+
+.growthzi_portfolio-case-text {
+  line-height: 1.7;
+  margin-bottom: 16px;
+  opacity: 0.85;
+}
+
+.growthzi_portfolio-case-icons {
+  display: flex;
+  gap: 12px;
+  margin-bottom: 18px;
+  opacity: 0.7;
+}
+
+.growthzi_portfolio-case-btn {
+  background: transparent;
+  border: 1px solid #00b3ff;
+  color: #00b3ff;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+
+.growthzi_portfolio-case-btn:hover {
+  background-color: #00b3ff;
+  color: #000;
+}
+
+/* Image Side */
+.growthzi_portfolio-case-image {
+  flex: 1;
+  position: relative;
+}
+
+.growthzi_portfolio-case-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-top-left-radius: 80px;
+}
+
+/* Other Cases */
+.growthzi_portfolio-other-cases {
+  margin-top: 100px;
+  text-align: center;
+}
+
+/* Responsive */
+@media (max-width: 900px) {
+  .growthzi_portfolio-case-card {
+    flex-direction: column;
+  }
+
+  .growthzi_portfolio-case-image img {
+    border-top-left-radius: 0;
+  }
+}

@@ -1,0 +1,81 @@
+.growthzi_portfolio-experience {
+  padding: 120px 0;
+  background: radial-gradient(
+      circle at top left,
+      rgba(0, 153, 255, 0.12),
+      transparent 60%
+    ),
+    linear-gradient(180deg, #05070d, #000);
+}
+
+.growthzi_portfolio-experience-wrapper {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.growthzi_portfolio-experience h2 {
+  text-align: center;
+  color: #00b3ff;
+  margin-bottom: 14px;
+}
+
+.growthzi_portfolio-experience-desc {
+  text-align: center;
+  max-width: 720px;
+  margin: 0 auto 60px;
+  opacity: 0.85;
+  line-height: 1.7;
+}
+
+.growthzi_portfolio-experience-role h3 {
+  color: #00b3ff;
+  margin-bottom: 6px;
+}
+
+.growthzi_portfolio-experience-company {
+  font-size: 15px;
+  opacity: 0.85;
+}
+
+.growthzi_portfolio-experience-duration {
+  font-size: 13px;
+  opacity: 0.6;
+  margin-bottom: 30px;
+}
+
+.growthzi_portfolio-experience-section {
+  margin-bottom: 30px;
+}
+
+.growthzi_portfolio-experience-section-title {
+  font-weight: 600;
+  margin-bottom: 12px;
+}
+
+.growthzi_portfolio-experience-point {
+  margin-bottom: 8px;
+  line-height: 1.6;
+  opacity: 0.9;
+}
+
+.growthzi_portfolio-experience-btn {
+  margin-top: 30px;
+  padding: 14px 30px;
+  background: linear-gradient(90deg, #008cff, #00c6ff);
+  border: none;
+  border-radius: 6px;
+  color: #fff;
+  cursor: pointer;
+  box-shadow: 0 0 20px rgba(0, 140, 255, 0.5);
+}
+
+.growthzi_portfolio-experience-btn:hover {
+  opacity: 0.9;
+}
+
+@media (max-width: 768px) {
+  .growthzi_portfolio-experience {
+    padding: 80px 0;
+  }
+}
