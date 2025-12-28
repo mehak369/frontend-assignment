@@ -1,21 +1,26 @@
-Software Engineer Portfolio – React Implementation
-📖 Project Overview
+🚀 Software Engineer Portfolio – React.js
 
-This project is a responsive personal portfolio website developed using React.js by converting a provided Figma design into a pixel-accurate UI.
+A responsive personal portfolio website built using React.js, developed by converting a provided Figma design into a visually accurate, production-ready UI.
 
-The goal of this assignment was to demonstrate:
+This project was created as part of a frontend engineering assignment and focuses on design accuracy, clean structure, and instruction compliance.
+----
+📌 Project Overview
 
-Strong understanding of React component architecture
+The objective of this project was to:
 
-Ability to translate Figma designs into real UI
+Convert a Figma design into a working React application
 
-Writing clean, maintainable external CSS
+Follow strict HTML, CSS, and styling rules
 
-Following specific technical and semantic instructions
+Demonstrate clean component architecture
 
-The application showcases sections such as:
+Ensure responsiveness across screen sizes
 
-Hero / Header
+------
+
+The portfolio includes the following sections:
+
+Header / Hero
 
 About Me
 
@@ -31,109 +36,143 @@ Skills
 
 Contact Form
 
+------
+
 🛠 Tech Stack
-
-Frontend: React.js (Functional Components)
-
-Styling: External CSS (No Tailwind, No inline styles)
-
-Build Tool: Vite
-
-Deployment: Vercel / Netlify
-
-Version Control: Git & GitHub
+Category	Technology
+Frontend	React.js (Functional Components)
+Styling	External CSS (No Tailwind, No inline styles)
+Build Tool	Vite
+Deployment	Vercel / Netlify
+Version Control	Git & GitHub
+-------
 
 📂 Project Structure
 
-The project follows a modular and scalable folder structure, where each component has its own CSS file to ensure better maintainability.
+The project follows a modular and maintainable folder structure, where each component has its own CSS file.
 
 src/
- ├── components/
- │   ├── Header/
- │   ├── About/
- │   ├── RecentCases/
- │   ├── Testimonials/
- │   ├── Experience/
- │   ├── Education/
- │   ├── Skills/
- │   └── Contact/
- │
- ├── pages/
- │   └── Home/
- │
- ├── assets/
- │   ├── images/
- │   └── icons/
- │
- ├── App.jsx
- └── main.jsx
+├── components/
+│   ├── Header/
+│   ├── About/
+│   ├── RecentCases/
+│   ├── Testimonials/
+│   ├── Experience/
+│   ├── Education/
+│   ├── Skills/
+│   └── Contact/
+│
+├── pages/
+│   └── Home/
+│
+├── assets/
+│   ├── images/
+│   └── icons/
+│
+├── App.jsx
+└── main.jsx
 
-🎨 Design Implementation Details
+------------
 
-The UI is built by closely following the provided Figma design
+🎨 Design Implementation
 
-Layout, spacing, colors, and visual hierarchy were carefully matched
+The UI closely matches the provided Figma design
 
-Dark theme with blue accent colors is consistently applied
+Special attention was given to:
 
-The website is fully responsive across desktop, tablet, and mobile screens
+Layout
 
-🧾 HTML & Accessibility Rules Followed
+Spacing
 
-As per the assignment instructions:
+Typography
 
-The main heading is placed inside the <h1> tag in the Header component
+Color consistency
+
+A dark theme with blue accents is used throughout the application
+
+The design adapts smoothly across desktop, tablet, and mobile devices
+----------------
+
+🧾 HTML Structure Rules Followed
+
+As per assignment instructions:
+
+The main heading is placed inside the <h1> tag only in the Header component
 
 All other section titles use <h2> or <h3>
 
-All descriptive text content is placed inside <div> tags
+All descriptive content is placed inside <div> tags
 
-Semantic consistency is maintained throughout the project
+Semantic consistency is maintained throughout the application
+
+-----------------------
 
 🎯 CSS Guidelines Followed
 
-External CSS only (No Tailwind, No styled-components, No inline CSS)
+External CSS only
 
-Separate CSS file for each component
+Separate CSS file for each component and page
 
-All CSS class names are prefixed to avoid style conflicts
+No Tailwind CSS
+
+No inline styles
+
+All CSS class names are prefixed to avoid conflicts
+
 Example:
 
 growthzi_portfolio-header
 growthzi_portfolio-about
 growthzi_portfolio-skills
 
+------------
+
 🖼 Images & Icons
 
-Sample images are used where required (profile, projects, skills)
+Sample images are used for:
 
-Social media icons (Instagram, LinkedIn, Email) are implemented using SVG icons
+Profile section
 
-Icons visually match the design and are styled consistently via CSS
+Case studies
+
+Skills cards
+
+Social media icons (Instagram, LinkedIn, Email) are implemented using SVG logos
+
+Icons are styled using CSS to match the provided design
+
+-----------------
 
 📱 Responsiveness
 
-The layout adapts smoothly across different screen sizes
+The application is fully responsive
 
-Flexbox and media queries are used for responsive behavior
+Media queries and Flexbox are used for layout adjustments
 
-Mobile view maintains readability and proper spacing
+Content remains readable and well-structured on all screen sizes
+
+-------------
 
 🚀 Deployment
 
-The project is deployed on a public hosting platform for easy access and review.
+The project is deployed on a public platform for easy review.
 
-🔗 Live Demo:
-👉 (Add your deployed Vercel / Netlify link here)
+-------------------
 
-▶️ How to Run Locally
+🔗 Live Demo
+👉 Add your deployed Vercel / Netlify link here
+-------------------
+
+▶️ Running the Project Locally
+
+Follow these steps to run the project on your local machine:
 
 Clone the repository
 
 git clone https://github.com/your-username/your-repo-name.git
 
 
-Navigate to the project directory
+Navigate to the project folder
 
 cd your-repo-name
 
@@ -147,14 +186,18 @@ Start the development server
 
 npm run dev
 
-✅ Key Highlights
+---------------
+
+⭐ Key Highlights
 
 Pixel-accurate Figma to React conversion
 
-Clean component-based architecture
+Clean and modular component structure
 
-External, maintainable CSS
+Maintainable external CSS
 
-Fully responsive layout
+Fully responsive design
 
-Clear and readable code structure
+Clear separation of concerns
+
+Production-ready codebase
