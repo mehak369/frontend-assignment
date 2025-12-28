@@ -1,16 +1,160 @@
-# React + Vite
+Software Engineer Portfolio – React Implementation
+📖 Project Overview
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This project is a responsive personal portfolio website developed using React.js by converting a provided Figma design into a pixel-accurate UI.
 
-Currently, two official plugins are available:
+The goal of this assignment was to demonstrate:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Strong understanding of React component architecture
 
-## React Compiler
+Ability to translate Figma designs into real UI
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+Writing clean, maintainable external CSS
 
-## Expanding the ESLint configuration
+Following specific technical and semantic instructions
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+The application showcases sections such as:
+
+Hero / Header
+
+About Me
+
+Recent Case Studies
+
+Testimonials
+
+Professional Experience
+
+Education
+
+Skills
+
+Contact Form
+
+🛠 Tech Stack
+
+Frontend: React.js (Functional Components)
+
+Styling: External CSS (No Tailwind, No inline styles)
+
+Build Tool: Vite
+
+Deployment: Vercel / Netlify
+
+Version Control: Git & GitHub
+
+📂 Project Structure
+
+The project follows a modular and scalable folder structure, where each component has its own CSS file to ensure better maintainability.
+
+src/
+ ├── components/
+ │   ├── Header/
+ │   ├── About/
+ │   ├── RecentCases/
+ │   ├── Testimonials/
+ │   ├── Experience/
+ │   ├── Education/
+ │   ├── Skills/
+ │   └── Contact/
+ │
+ ├── pages/
+ │   └── Home/
+ │
+ ├── assets/
+ │   ├── images/
+ │   └── icons/
+ │
+ ├── App.jsx
+ └── main.jsx
+
+🎨 Design Implementation Details
+
+The UI is built by closely following the provided Figma design
+
+Layout, spacing, colors, and visual hierarchy were carefully matched
+
+Dark theme with blue accent colors is consistently applied
+
+The website is fully responsive across desktop, tablet, and mobile screens
+
+🧾 HTML & Accessibility Rules Followed
+
+As per the assignment instructions:
+
+The main heading is placed inside the <h1> tag in the Header component
+
+All other section titles use <h2> or <h3>
+
+All descriptive text content is placed inside <div> tags
+
+Semantic consistency is maintained throughout the project
+
+🎯 CSS Guidelines Followed
+
+External CSS only (No Tailwind, No styled-components, No inline CSS)
+
+Separate CSS file for each component
+
+All CSS class names are prefixed to avoid style conflicts
+Example:
+
+growthzi_portfolio-header
+growthzi_portfolio-about
+growthzi_portfolio-skills
+
+🖼 Images & Icons
+
+Sample images are used where required (profile, projects, skills)
+
+Social media icons (Instagram, LinkedIn, Email) are implemented using SVG icons
+
+Icons visually match the design and are styled consistently via CSS
+
+📱 Responsiveness
+
+The layout adapts smoothly across different screen sizes
+
+Flexbox and media queries are used for responsive behavior
+
+Mobile view maintains readability and proper spacing
+
+🚀 Deployment
+
+The project is deployed on a public hosting platform for easy access and review.
+
+🔗 Live Demo:
+👉 (Add your deployed Vercel / Netlify link here)
+
+▶️ How to Run Locally
+
+Clone the repository
+
+git clone https://github.com/your-username/your-repo-name.git
+
+
+Navigate to the project directory
+
+cd your-repo-name
+
+
+Install dependencies
+
+npm install
+
+
+Start the development server
+
+npm run dev
+
+✅ Key Highlights
+
+Pixel-accurate Figma to React conversion
+
+Clean component-based architecture
+
+External, maintainable CSS
+
+Fully responsive layout
+
+Clear and readable code structure
