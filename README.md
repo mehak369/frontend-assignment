@@ -119,7 +119,7 @@ The project is deployed on a public platform for easy review.
 -------------------
 
 🔗 Live Demo
-👉 Add your deployed Vercel / Netlify link here
+👉 https://frontend-assignment-tau-taupe.vercel.app/
 -------------------
 
 ▶️ Running the Project Locally
